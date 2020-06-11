@@ -1,0 +1,33 @@
+.nav{
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 50px;
+    margin-top: 0;
+    color: white;
+    background-color: black;
+    & .link{
+        text-decoration: none;
+        height: 100%;
+        width: 100%;
+        color: white;
+        font-weight: bolder;
+        // background-image: url('../Assets/logo.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    & ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+
+        justify-content: flex-end;
+        width: 50%;
+        text-transform: uppercase;
+        & .linkNav{
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+        }
+    } 
+}
