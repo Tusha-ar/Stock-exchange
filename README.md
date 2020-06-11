@@ -6,3 +6,5 @@ Alpha Vantage API
 * React
 # install dependencies
 npm i or yarn install
+# Live at
+https://stock-exchange.tusha-ar.now.sh/
